@@ -39,7 +39,6 @@ void dijkstra(int graph[V][V], int source)
         }
     }
     printf("Vertex\tDistance from A\n");
-
     for (int i = 0; i < V; i++)
         printf("%c\t%d\n", 'A' + i, dist[i]);
 }
