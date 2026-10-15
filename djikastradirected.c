@@ -52,6 +52,6 @@ int main()
         { 0,  0,  0, 0, 0 },  // D
         { 2,  0,  0, 6, 0 }   // E
     };
-    dijkstra(graph, 0);   // A is source
+    dijkstra(graph, 0);   // A is the source
     return 0;
 }
