@@ -5,7 +5,6 @@ int minDistance(int dist[], int visited[])
 {
     int min = INT_MAX;
     int minIndex = -1;
-
     for (int i = 0; i < V; i++)
     {
         if (visited[i] == 0 && dist[i] < min)
