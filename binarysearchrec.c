@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <time.h>
-int BS(int arr[], int st, int end, int tar)
-{
+int BS(int arr[], int st, int end, int tar){
     int mid;
     if (st > end)
     { //base condition 
