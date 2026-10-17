@@ -29,8 +29,7 @@ int main()
     printf("Enter the number of elements: ");
     scanf("%d", &n);
     printf("Enter %d elements in sorted order:\n", n);
-    for (i = 0; i < n; i++)
-    {
+    for (i = 0; i < n; i++){
         scanf("%d", &arr[i]);
     }
     printf("Enter the element to search: ");
