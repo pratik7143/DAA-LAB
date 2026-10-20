@@ -18,8 +18,7 @@ void dijkstra(int graph[V][V], int source){
     for (int i = 0; i < V; i++)
         dist[i] = INF;
     dist[source] = 0;
-    for (int i = 0; i < V - 1; i++)
-    {
+    for (int i = 0; i < V - 1; i++){
         int u = minDistance(dist, visited);
         if (u == -1)
             break;
