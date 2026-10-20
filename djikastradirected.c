@@ -4,8 +4,7 @@
 int minDistance(int dist[], int visited[]){
     int min = INF;
     int index = -1;
-    for (int i = 0; i < V; i++)
-    {
+    for (int i = 0; i < V; i++)  {
         if (visited[i] == 0 && dist[i] < min)
         {
             min = dist[i];
