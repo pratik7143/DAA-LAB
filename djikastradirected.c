@@ -1,8 +1,7 @@
 #include <stdio.h>
 #define V 5
 #define INF 9999
-int minDistance(int dist[], int visited[])
-{
+int minDistance(int dist[], int visited[]){
     int min = INF;
     int index = -1;
     for (int i = 0; i < V; i++)
