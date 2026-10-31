@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <limits.h>
-
 #include <time.h>
 int main(){
     int arr[100], n, i;
