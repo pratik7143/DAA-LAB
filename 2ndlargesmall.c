@@ -4,7 +4,8 @@
 int main()
 {
     int arr[100], n, i;
-    int l1 = INT_MIN, l2 = INT_MIN; // initialized the minimum integer value possible so that it's easy for comparison and replacing
+    int l1 = INT_MIN, l2 = INT_MIN; 
+// initialized the minimum integer value possible so that it's easy for comparison and replacing
     int s1 = INT_MAX, s2 = INT_MAX;// initialized the maximum integer value possible so that it's easy for comparison and replacing
     clock_t start, end;
     double cpu_time_used;
