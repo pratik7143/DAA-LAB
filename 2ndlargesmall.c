@@ -47,7 +47,7 @@ int main(){
     if (l2 == INT_MIN || s2 == INT_MAX){ // did this because there could be the numbers which are the same.
         printf("Second largest or second smallest element does not exist.\n");
     }
-    else {
+    else{
         printf("Second largest element: %d\n", l2);
         printf("Second smallest element: %d\n", s2);
     }
