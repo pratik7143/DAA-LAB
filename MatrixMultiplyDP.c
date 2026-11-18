@@ -1,7 +1,8 @@
 #include<stdio.h>
 #include<limits.h>
 #include<time.h>
-int main(){
+int main()
+{
     int n;
     printf("Enter the number of matrices: ");
     scanf("%d",&n);
