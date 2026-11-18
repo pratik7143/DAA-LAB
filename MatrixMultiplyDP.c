@@ -8,7 +8,8 @@ int main()
     scanf("%d",&n);
     int a[n+1];
     printf("Enter the dimensions of the matrices: ");
-    for(int i = 0;i<=n;i++){
+    for(int i = 0;i<=n;i++)
+{
         scanf("%d",&a[i]);
     }
     int m[n][n];
