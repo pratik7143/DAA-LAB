@@ -18,7 +18,8 @@ int main()
     for(int i = 0;i<n;i++){
         m[i][i] = 0;
     }
-    for(int l = 2; l<=n;l++){
+    for(int l = 2; l<=n;l++)
+{
         for(int i = 0;i<=n-l;i++){
             int j = i+l-1;
             m[i][j] = INT_MAX;
