@@ -20,7 +20,8 @@ int main()
     }
     for(int l = 2; l<=n;l++)
 {
-        for(int i = 0;i<=n-l;i++){
+        for(int i = 0;i<=n-l;i++)
+{
             int j = i+l-1;
             m[i][j] = INT_MAX;
             for(int k = i;k<j;k++){
